@@ -1,0 +1,412 @@
+{
+  "language": "en",
+  "languages": [
+    {
+      "title": "tr"
+    },
+    {
+      "title": "en"
+    }
+  ],
+  "layout": {
+    "subHeader": {
+      "socialItems": [
+        {
+          "title": "Gmail",
+          "text": "serap.pala.frontend.developer@gmail.com",
+          "url": "mailto:serap.pala.frontend.developer@gmail.com"
+        },
+        {
+          "title": "LinkedIn",
+          "text": "serap-pala",
+          "url": "https://www.linkedin.com/in/serap-pala/"
+        },
+        {
+          "title": "Github",
+          "text": "SerapPala",
+          "url": "https://github.com/SerapPala"
+        },
+        {
+          "title": "İzmir - Turkey",
+          "text": "Turkey",
+          "url": "https://maps.app.goo.gl/iuezKprmGM99T8zF6"
+        }
+      ]
+    },
+    "header": {
+      "logo": {
+        "url": "/",
+        "alt": ""
+      },
+      "navItems": [
+        {
+          "title": "Homepage",
+          "url": "/"
+        },
+        {
+          "title": "About",
+          "url": "/about"
+        },
+        {
+          "title": "Projects",
+          "url": "/projects"
+        },
+        {
+          "title": "Blog",
+          "url": "/blog",
+          "subItems": [
+            {
+              "id":"" ,
+              "title": "",
+              "description": "",
+              "url": ""
+            },
+            {
+              "id": "",
+              "title": "",
+              "description": "",
+              "url": ""
+            },
+            {
+              "id": "",
+              "title": "",
+              "description": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "title": "Contact",
+          "url": "/contact"
+        }
+      ],
+      "navButtons": [
+        {
+          "title": "Giriş Yap",
+          "url": "/login"
+        },   {
+          "title": "Çıkış Yap",
+          "url": "/"
+        },
+        {
+          "arrow": {
+            "up": "",
+            "down": ""
+          }
+        },
+        {
+          "toggleButton": {
+            "icon": "",
+            "alt": ""
+          }
+        }
+      ],
+      "subMenuButtons": [
+        {
+          "title": ""
+        }
+      ],
+
+      "search": {
+        "placeholder": "",
+        "placeholder2": "",
+        "title": "",
+        "icon": ""
+      }
+    },
+    "footer": {
+      "logo": {
+        "logoAlt": "logo",
+        "url": "/"
+      },
+      "text": "Prepared by Serap Pala.",
+      "data": [
+        {
+          "title": "About",
+          "subItems": [
+            {
+              "title": "Kimdir ?",
+              "url": "/about"
+            }
+          ]
+        },
+        {
+          "title": "About",
+          "subItems": [
+            {
+              "title": "Kimdir ?",
+              "url": "/about"
+            }
+          ]
+        },
+        {
+          "title": "About",
+          "subItems": [
+            {
+              "title": "Kimdir ?",
+              "url": "/about"
+            }
+          ]
+        }
+      ],
+      "contact": {
+        "title": "Contact"
+      }
+    },
+    "copyright": {
+      "companyName": "@ 2024 - Serap Pala",
+      "copyrightText": "All rights reserved.",
+      "terms" : {
+        "title": "Terms & Conditions",
+        "url": "/terms-conditions"
+      },
+      "privacy" : {
+        "title": "Privacy Policy",
+        "url": "/privacy-policy"
+      }
+    }
+  },
+  "components": {
+    "contactForm": {
+      "title": "Contact",
+      "description": "Contact Me",
+      "formTitle": "Contact Form",
+      "formItems": {
+        "0": {
+          "placeholder": "Name Surname"
+        },
+        "1": {
+          "placeholder": "E-Mail Address"
+        },
+        "2": {
+          "placeholder": "Subject"
+        },  "3": {
+          "placeholder": "Subject"
+        },
+        "3": {
+          "placeholder": "Message"
+        }
+      },
+      "button": {
+        "title": "Send Message"
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "button": {
+          "title": "",
+          "url": ""
+        }
+      }
+    },
+    "loginForm": {
+      "title": "Login",
+      "description": "Member Login",
+      "formTitle": "Login Form",
+      "formItems": {
+        "0": {
+          "placeholder": "Username"
+        },
+        "1": {
+          "placeholder": "Password"
+        }
+      },
+      "button": {
+        "title": "Login"
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "button": {
+          "title": "",
+          "url": ""
+        }
+      }
+    },
+    "registerForm": {
+      "title": "Sign Up",
+      "description": "Join Us",
+      "formTitle": "Registration Form",
+      "formItems": {
+        "0": {
+          "placeholder": "Your Username"
+        },
+        "1": {
+          "placeholder": "Your Email Address"
+        },
+        "2": {
+          "placeholder": "Your Password"
+        },
+        "3": {
+          "placeholder": "Repeat Password"
+        }
+      },
+      "button": {
+        "title": "Sign Up"
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "button": {
+          "title": "",
+          "url": ""
+        }
+      }
+    },
+    "getQuoteForm": {
+      "title":"",
+      "description":"",
+      "formItems": {
+        "0": {
+          "placeholder": ""
+        },
+        "1": {
+          "placeholder": ""
+        },
+        "2": {
+          "placeholder": ""
+        },
+        "3": {
+          "placeholder": ""
+        }, "4": {
+          "placeholder": ""
+        },
+        "5": {
+          "text": ""
+        }},
+      "button": {
+        "title": ""
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "button": {
+          "title": "",
+          "url": ""
+        }
+      }
+    },
+    "marquee": {
+      "text": ""
+    },
+    "productDetailSection": {
+      "breadCrumb": {
+        "parent":{
+          "title":"",
+          "url":""
+        },
+        "child": {
+          "title":""
+        }
+      },
+      "productDetail": {
+        "information":"",
+        "noDescription":"",
+        "availableProductSizes":"",
+        "availableProductColorsTitle":""
+      }
+    }
+  },
+  "pages": {
+    "notFound": {
+      "title":"404",
+      "description":"sorry! The Page Not Found :(",
+      "button":{
+        "title":"Back To Home",
+        "url":"/"
+      }
+    },
+    "contact": {
+      "title":"",
+      "description":"",
+      "iframeUrl":"",
+      "button":{
+        "title":"",
+        "url":""
+      } ,
+      "image":"",
+      "mapUrl":"",
+      "data": [
+        {
+          "id": "",
+          "header":"",
+          "title":"",
+          "url":""
+        },    {
+          "id": "",
+          "header":"",
+          "title":"",
+          "url":""
+        },    {
+          "id": "",
+          "header":"",
+          "title":"",
+          "url":""
+        }
+      ]
+    },
+    "products": {
+      "title":"",
+      "description":"",
+      "breadCrumb": {
+        "parent":{
+          "title":"",
+          "url":""
+        },
+        "child": {
+          "title":""
+        }
+      },
+      "filter": {
+        "title":"",
+        "title2":"",
+        "title3":"",
+        "button":{
+          "title":""
+        }
+      }
+    },
+    "blogs": {
+      "title":"",
+      "description":"",
+      "breadCrumb": {
+        "parent":{
+          "title":"",
+          "url":""
+        },
+        "child": {
+          "title":""
+        }
+      },
+      "filter": {
+        "title":"",
+        "title2":"",
+        "title3":"",
+        "button":{
+          "title":""
+        }
+      }
+    },
+    "blogDetail": {
+      "title":"",
+      "breadCrumb": {
+        "parent":{
+          "title":"",
+          "url":""
+        },
+        "child": {
+          "title":""
+        }
+      }
+    }
+  },
+  "general": {
+    "filter":{
+      "name":"",
+      "titles": [
+        {"name":"","value":""},
+        {"name":"","value":""}
+      ]
+    }
+  }
+}

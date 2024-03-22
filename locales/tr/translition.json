@@ -1,0 +1,410 @@
+{
+  "language": "tr",
+  "languages": [
+    {
+      "title": "tr"
+    },
+    {
+      "title": "en"
+    }
+  ],
+  "layout": {
+    "subHeader": {
+      "socialItems": [
+        {
+          "title": "Gmail",
+          "text": "serap.pala.frontend.developer@gmail.com",
+          "url": "mailto:serap.pala.frontend.developer@gmail.com"
+        },
+        {
+          "title": "LinkedIn",
+          "text": "serap-pala",
+          "url": "https://www.linkedin.com/in/serap-pala/"
+        },
+        {
+          "title": "Github",
+          "text": "SerapPala",
+          "url": "https://github.com/SerapPala"
+        },
+        {
+          "title": "İzmir - Türkiye",
+          "text": "Türkiye",
+          "url": "https://maps.app.goo.gl/iuezKprmGM99T8zF6"
+        }
+      ]
+    },
+    "header": {
+      "logo": {
+        "url": "/",
+        "alt": ""
+      },
+      "navItems": [
+        {
+          "title": "Anasayfa",
+          "url": "/"
+        },
+        {
+          "title": "Hakkımda",
+          "url": "/about"
+        },
+        {
+          "title": "Projeler",
+          "url": "/projects"
+        },
+        {
+          "title": "Blog",
+          "url": "/blog",
+          "subItems": [
+            {
+              "id":"" ,
+              "title": "",
+              "description": "",
+              "url": ""
+            },
+            {
+              "id": "",
+              "title": "",
+              "description": "",
+              "url": ""
+            },
+            {
+              "id": "",
+              "title": "",
+              "description": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "title": "İletişim",
+          "url": "/contact"
+        }
+      ],
+      "navButtons": [
+        {
+          "title": "Giriş Yap",
+          "url": "/login"
+        },   {
+          "title": "Çıkış Yap",
+          "url": "/"
+        },
+        {
+          "arrow": {
+            "up": "",
+            "down": ""
+          }
+        },
+        {
+          "toggleButton": {
+            "icon": "",
+            "alt": ""
+          }
+        }
+      ],
+      "subMenuButtons": [
+        {
+          "title": ""
+        }
+      ],
+
+      "search": {
+        "placeholder": "",
+        "placeholder2": "",
+        "title": "",
+        "icon": ""
+      }
+    },
+    "footer": {
+      "logo": {
+        "alt": "logo",
+        "url": "/"
+      },
+      "text": "Serap Pala tarafından hazırlanmıştır.",
+      "data": [
+        {
+          "title": "Hakkımda",
+          "subItems": [
+            {
+              "title": "Kimdir ?",
+              "url": "/about"
+            }
+          ]
+        },
+        {
+          "title": "Hakkımda",
+          "subItems": [
+            {
+              "title": "Kimdir ?",
+              "url": "/about"
+            }
+          ]
+        },
+        {
+          "title": "Hakkımda",
+          "subItems": [
+            {
+              "title": "Kimdir ?",
+              "url": "/about"
+            }
+          ]
+        }
+      ],
+      "contact": {
+        "title": "İletişim"
+      }
+    },
+    "copyright": {
+      "companyName": "2024 - Serap Pala",
+      "copyrightText": "Tüm Hakları Saklıdır.",
+      "terms" : {
+        "title": "Şartlar ve Koşullar",
+        "url": "/terms-conditions"
+      },
+      "privacy" : {
+        "title": "Gizlilik Politikası",
+        "url": "/privacy-policy"
+      }
+    }
+  },
+  "components": {
+    "contactForm": {
+      "title": "İletişim",
+      "description": "Benimle İletişime Geçin",
+      "formTitle": "İletişim Formu",
+      "formItems": {
+        "0": {
+          "placeholder": "Adınız Soyadınız"
+        },
+        "1": {
+          "placeholder": "E-Posta Adresiniz"
+        },
+        "2": {
+          "placeholder": "Konu"
+        },
+        "3": {
+          "placeholder": "Mesajınız"
+        }
+      },
+      "button": {
+        "title": "Gönder"
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "button": {
+          "title": "",
+          "url": ""
+        }
+      }
+    },
+    "loginForm": {
+      "title": "Giriş Yap",
+      "description": "Üye Girişi",
+      "formTitle": "Giriş Formu",
+      "formItems": {
+        "0": {
+          "placeholder": "Kullanıcı Adınız"
+        },
+        "1": {
+          "placeholder": "Şifreniz"
+        }
+      },
+      "button": {
+        "title": "Giriş Yap"
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "button": {
+          "title": "",
+          "url": ""
+        }
+      }
+    },
+    "registerForm": {
+      "title": "Kaydol",
+      "description": "Üye Ol",
+      "formTitle": "Kayıt Formu",
+      "formItems": {
+        "0": {
+          "placeholder": "Kullanıcı Adınız"
+        },
+        "1": {
+          "placeholder": "E-Posta Adresiniz"
+        },
+        "2": {
+          "placeholder": "Şifreniz"
+        },
+        "3": {
+          "placeholder": "Şifre Tekrar"
+        }
+      },
+      "button": {
+        "title": "Kaydol"
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "button": {
+          "title": "",
+          "url": ""
+        }
+      }
+    },
+    "getQuoteForm": {
+      "title":"",
+      "description":"",
+      "formItems": {
+        "0": {
+          "placeholder": ""
+        },
+        "1": {
+          "placeholder": ""
+        },
+        "2": {
+          "placeholder": ""
+        },
+        "3": {
+          "placeholder": ""
+        }, "4": {
+          "placeholder": ""
+        },
+        "5": {
+          "text": ""
+        }},
+      "button": {
+        "title": ""
+      },
+      "success": {
+        "title": "",
+        "description": "",
+        "button": {
+          "title": "",
+          "url": ""
+        }
+      }
+    },
+    "marquee": {
+      "text": ""
+    },
+    "productDetailSection": {
+      "breadCrumb": {
+        "parent":{
+          "title":"",
+          "url":""
+        },
+        "child": {
+          "title":""
+        }
+      },
+      "productDetail": {
+        "information":"",
+        "noDescription":"",
+        "availableProductSizes":"",
+        "availableProductColorsTitle":""
+      }
+    }
+  },
+  "pages": {
+    "notFound": {
+      "title":"404",
+      "description":"Sayfa Bulunamadı",
+      "button":{
+        "title":"Anasayfaya Dön",
+        "url":"/"
+      }
+    },
+    "contact": {
+      "title":"",
+      "description":"",
+      "iframeUrl":"",
+      "button":{
+        "title":"",
+        "url":""
+      } ,
+      "image":"",
+      "mapUrl":"",
+      "data": [
+        {
+         "id": "",
+          "header":"",
+          "title":"",
+          "url":""
+        },    {
+         "id": "",
+          "header":"",
+          "title":"",
+          "url":""
+        },    {
+         "id": "",
+          "header":"",
+          "title":"",
+          "url":""
+        }
+      ]
+    },
+    "products": {
+      "title":"",
+      "description":"",
+      "breadCrumb": {
+        "parent":{
+          "title":"",
+          "url":""
+        },
+        "child": {
+          "title":""
+        }
+      },
+      "filter": {
+        "title":"",
+        "title2":"",
+        "title3":"",
+        "button":{
+          "title":""
+        }
+      }
+    },
+    "blogs": {
+      "title":"",
+      "description":"",
+      "breadCrumb": {
+        "parent":{
+          "title":"",
+          "url":""
+        },
+        "child": {
+          "title":""
+        }
+      },
+      "filter": {
+        "title":"",
+        "title2":"",
+        "title3":"",
+        "button":{
+          "title":""
+        }
+      }
+    },
+    "blogDetail": {
+      "title":"",
+      "breadCrumb": {
+        "parent":{
+          "title":"",
+          "url":""
+        },
+        "child": {
+          "title":""
+        }
+      }
+    }
+  },
+  "general": {
+    "filter":{
+      "name":"",
+      "titles": [
+        {"name":"","value":""},
+        {"name":"","value":""}
+      ]
+    }
+  }
+}

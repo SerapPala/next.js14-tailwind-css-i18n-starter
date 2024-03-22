@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
+  position: relative;
+font-family: "Poppins", sans-serif;
+}
+
+.content-container {
+  @apply px-4 lg:px-8 max-w-[1440px] mx-auto;
+}
+.vertical-slider-container{
+  @apply  max-w-[1440px] mx-auto;
+}
+.page-container{
+  @apply lg:py-16 py-8;
+}
+.page-container-2x{
+  @apply lg:py-32 py-16;
+}.page-container-3x{
+  @apply py-16 lg:py-32;
+}
+
+.layout-container{
+  @apply min-h-[calc(100vh-640px)];
+}
+
+  /* container */
+  .container-fluid {
+    @apply px-4  lg:px-8;
+  }
+  .custom-container-fluid {
+    @apply px-4 lg:px-8;
+    @media screen and (min-width: 1921px) {
+      padding: 0px 500px;
+    }
+  }
+  
+  
+
+
+
+/* ========================================== UTILITIES */
+@layer utilities {
+  .custom-placeholder::placeholder {
+    @apply text-sm text-grey-500 font-normal;
+  }
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0) saturate(100%) invert(0%) sepia(99%) saturate(0%)
+    hue-rotate(182deg) brightness(97%) contrast(102%);
+}
+
+
+.slick-dots li.slick-active button:before {
+  color:#fff !important;
+}.slick-dots li button:before {
+  color:#c9c6c6 !important;
+}
+.slick-prev:before,
+.slick-next:before {
+   display:none!important;
+}
+/* partner section */
+.partner-image {
+  filter: brightness(0) saturate(100%) invert(46%) sepia(10%) saturate(960%) hue-rotate(176deg) brightness(94%) contrast(90%);
+}
+.partner-image:hover,
+.partner-image:focus {
+  filter: brightness(0) saturate(100%) invert(45%) sepia(89%) saturate(2095%) hue-rotate(13deg) brightness(111%) contrast(96%);
+}
+
+.marquee:hover .marquee-icon{
+  filter: brightness(0) saturate(100%) invert(95%) sepia(0%) saturate(0%) hue-rotate(140deg) brightness(104%) contrast(107%);
+}
+.bg-white-950-sticky {
+  background-color: #ffffff;
+}
+
+
+.icon-image-p{
+  width: auto;
+  height: auto;
+}
+
+
+
+/* the slides */
+.slick-slider {
+  overflow: hidden!important;
+}
+/* the parent */
+.slick-list {
+  margin: 0 -16px!important;
+}
+/* item */  
+.slider-item{
+  padding: 0 16px!important;
+}
+
+.btn2 span:first-child{
+  transform: translateX(-101%);
+  transition: transform .3s ease-in
+}
+.btn2:hover span{
+  transform: translateX(0)
+}

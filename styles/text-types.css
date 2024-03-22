@@ -1,0 +1,153 @@
+@tailwind components;
+
+@layer components {
+  .page{
+    @apply font-poppins
+  }
+  
+
+  /* -------------------------------------------------------------------------------TITLES */
+  /* TITLE 2XL */
+  .title-2xl-semilight {
+    @apply font-normal text-4xl  md:text-42 md:leading-22  lg:text-66 lg:leading-20;
+  }
+  .title-2xl-bold {
+    @apply font-bold text-4xl  md:text-42 md:leading-22  lg:text-66 lg:leading-20;
+  }
+
+  /* TITLE XL */
+  .title-xl {
+    @apply font-bold text-28 leading-9  md:text-4xl lg:text-42 lg:leading-[52px];
+  }
+
+  /* TITLE LG */
+  .title-lg-regular {
+    @apply font-medium text-2xl leading-9  md:text-28 md:leading-9 lg:text-4xl;
+  }
+  .title-lg-bold {
+    @apply font-bold text-2xl leading-8  md:text-28  md:leading-9 
+    lg:text-4xl lg:leading-tight;
+  }
+
+  /* TITLE MD */
+  .title-md-regular {
+    @apply font-medium text-2xl;
+  }
+  .title-md-semibold {
+    @apply font-semibold text-2xl;
+  }
+
+  /* TITLE SM */
+  .title-sm {
+    @apply font-semibold text-lg;
+  }
+  /* TITLE XS */
+  .title-xs-semibold {
+    @apply font-semibold text-sm;
+  }
+  .title-xs-medium {
+    @apply font-medium text-sm;
+  }
+  .title-xs {
+      @apply font-normal text-sm;
+    }
+
+  /* -------------------------------------------------------------------------------TEXTS */
+
+  /* TEXT LG */
+  .text-lg-semibold {
+    @apply font-bold text-lg;
+  }
+  .text-lg-medium {
+    @apply font-medium text-lg;
+  }
+  .text-lg-regular {
+    @apply font-normal text-lg ;
+  }
+  .text-lg-light {
+    @apply font-light text-lg;
+  }
+
+  /* TEXT MD */
+  .text-md-semibold {
+    @apply font-bold text-base;
+  }
+  .text-md-medium {
+    @apply font-medium text-base;
+  }
+  .text-md-regular {
+    @apply font-normal text-base ;
+  }
+  .text-md-light {
+    @apply font-light text-base;
+  }
+
+  /* TEXT SM */
+  .text-sm-semibold {
+    @apply font-bold text-sm;
+  }
+  .text-sm-medium {
+    @apply font-medium text-sm;
+  }
+  .text-sm-regular {
+    @apply font-normal text-sm;
+  }
+  .text-sm-light {
+    @apply font-light text-sm;
+  }
+
+  /* TEXT XS */
+  .text-xs-semibold {
+    @apply font-bold text-xs;
+  }
+  .text-xs-medium {
+    @apply font-medium text-xs;
+  }
+  .text-xs-regular {
+    @apply font-normal text-xs;
+  }
+  .text-xs-light {
+    @apply font-light text-xs;
+  }
+
+  /* -------------------------------------------------------------------------------BUTTONS */
+
+  /* BUTTON LG */
+  .button-lg {
+    @apply font-medium text-base;
+  }
+
+  /* BUTTON MD */
+  .button-md-semibold {
+    @apply font-semibold text-sm;
+  }
+  .button-md-medium {
+    @apply font-medium text-sm;
+  }
+
+  /* BUTTON SM */
+  .button-sm {
+    @apply font-medium text-xs;
+  }
+  /* -------------------------------------------------------------------------------MARQUEE */
+
+  .marquee{
+    @apply font-bold text-[56px] md:text-[112px];
+  }
+
+
+
+  /* -------------------------------------------------------------------------------UPPERCASES */
+
+  /* UPPERCASE MD */
+  .uppercase-md {
+    @apply font-semibold text-sm uppercase;
+  } /* UPPERCASE SM */
+  .uppercase-sm {
+    @apply font-semibold text-xs uppercase;
+  } /* UPPERCASE XS */
+  .uppercase-xs {
+    @apply font-semibold text-xxs l uppercase;
+  }
+}
+
